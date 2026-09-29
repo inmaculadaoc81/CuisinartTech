@@ -112,3 +112,12 @@ background-size:72px 72px;color:#fff}
 .hero:after{content:"";position:absolute;left:-8%;right:-8%;bottom:-38%;height:72%;border-radius:50%;border-top:2px solid rgba(13,126,246,.48);box-shadow:0 -18px 80px rgba(0,90,210,.14);transform:rotate(-5deg);pointer-events:none}
 .hero .wrap{position:relative;z-index:2}.hero h1,.hero .hero-title{color:#fff!important;text-shadow:0 2px 18px rgba(0,0,0,.18)}.hero h1 em,.hero .hero-title em{color:#1686ff!important}.hero .eyebrow{background:#0878e8!important;color:#fff!important;border-color:#0878e8!important}.hero .info{background:#fff!important;color:#111!important;border-top:4px solid #0878e8!important;box-shadow:0 22px 60px rgba(0,0,0,.24)}
 @media(max-width:700px){.hero:before{background-size:auto,28px 28px}.hero:after{bottom:-20%;height:48%}}
+
+/* Fix móvil: el contenedor invisible de n8n no debe bloquear botones/enlaces */
+@media(max-width:700px){
+  .chat-window-wrapper.n8n-chat{pointer-events:none!important;}
+  .chat-window-wrapper.n8n-chat .chat-window,
+  .chat-window-wrapper.n8n-chat .chat-window-toggle,
+  .chat-window-wrapper.n8n-chat button,
+  .chat-window-wrapper.n8n-chat [role="button"]{pointer-events:auto!important;}
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="t d">
+<title id="t">CuisinartTech</title><desc id="d">Isotipo CT en gris, negro y blanco con logotipo CuisinartTech</desc>
+<rect width="640" height="160" fill="white"/>
+<g transform="translate(22 22)">
+  <rect width="116" height="116" rx="18" fill="#6f6f6f"/>
+  <path d="M71 28a32 32 0 1 0 0 64" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M65 31h32M81 31v58" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+</g>
+<text x="160" y="91" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" fill="#6f6f6f">Cuisinart</text>
+<text x="425" y="91" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" fill="#111">Tech</text>
+<text x="162" y="121" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#6f6f6f">SERVICIO TÉCNICO</text>
+</svg>

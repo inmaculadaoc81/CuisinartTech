@@ -105,3 +105,10 @@ background-size:72px 72px;color:#fff}
 .map-wrap .maplink.lower{display:inline-flex!important;visibility:visible!important;opacity:1!important;width:auto!important;background:var(--cui-blue)!important;color:#fff!important;padding:13px 20px!important;border-radius:999px!important;font-weight:800!important;margin-top:16px!important;position:relative!important;z-index:3!important;text-decoration:none!important}
 .map-wrap .maplink.lower:hover{background:var(--cui-blue-dark)!important;color:#fff!important}
 @media(max-width:600px){.brand-logo,.footer-brand .brand-logo{width:42px;height:42px}.map-wrap .maplink.lower{width:100%!important;justify-content:center!important}}
+
+/* Hero CuisinartTech — fondo azul/negro de alta legibilidad */
+.hero{background:#03152b!important;background-image:radial-gradient(circle at 18% 18%,rgba(11,111,220,.34),transparent 31%),radial-gradient(circle at 86% 20%,rgba(0,99,205,.22),transparent 32%),linear-gradient(145deg,#07539b 0%,#062c57 29%,#03162e 62%,#020b17 100%)!important;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(155deg,transparent 0 18%,rgba(17,129,255,.13) 18.15% 18.45%,transparent 18.6% 47%,rgba(17,129,255,.11) 47.15% 47.45%,transparent 47.6%),radial-gradient(circle at 95% 72%,rgba(11,111,220,.32) 0 2px,transparent 2.5px);background-size:auto,22px 22px;opacity:.72}
+.hero:after{content:"";position:absolute;left:-8%;right:-8%;bottom:-38%;height:72%;border-radius:50%;border-top:2px solid rgba(13,126,246,.48);box-shadow:0 -18px 80px rgba(0,90,210,.14);transform:rotate(-5deg);pointer-events:none}
+.hero .wrap{position:relative;z-index:2}.hero h1,.hero .hero-title{color:#fff!important;text-shadow:0 2px 18px rgba(0,0,0,.18)}.hero h1 em,.hero .hero-title em{color:#1686ff!important}.hero .eyebrow{background:#0878e8!important;color:#fff!important;border-color:#0878e8!important}.hero .info{background:#fff!important;color:#111!important;border-top:4px solid #0878e8!important;box-shadow:0 22px 60px rgba(0,0,0,.24)}
+@media(max-width:700px){.hero:before{background-size:auto,28px 28px}.hero:after{bottom:-20%;height:48%}}

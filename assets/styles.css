@@ -121,3 +121,4 @@ background-size:72px 72px;color:#fff}
   .chat-window-wrapper.n8n-chat button,
   .chat-window-wrapper.n8n-chat [role="button"]{pointer-events:auto!important;}
 }
+.quote svg{width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;flex:0 0 20px!important}
